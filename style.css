@@ -46,8 +46,7 @@ nav a {
 }
 
 .hero {
-  background: url("/images/olek.jpg")
-    no-repeat center center/cover;
+  background: url("/images/olek.jpg") no-repeat center center/cover;
   padding: 250px 20px 50px;
   text-align: right;
   margin-top: 100px;
@@ -70,7 +69,7 @@ nav a {
   text-decoration: none;
 }
 
-.hero a:hover{
+.hero a:hover {
   background-color: #ed424b;
 }
 
@@ -104,12 +103,65 @@ footer {
   color: #aaa;
 }
 
+/* SERVICES SECTION */
+.services-section {
+  background-color: #111;
+  color: #f0f0f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e50914;
+}
+
+.services p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+/* WHY US SECTION */
+.why-us-section {
+  background-color: #181818;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.why-us-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e50914;
+}
+
+.why-us ul {
+  list-style: none;
+  padding: 0;
+  max-width: 700px;
+  text-align: left;
+}
+
+.why-us li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.why-us li::before {
+  content: "✔";
+  color: #e50914;
+  margin-right: 10px;
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
+    position: relative;
   }
 
   nav {
@@ -119,7 +171,7 @@ footer {
   nav a {
     margin: 5px 0;
   }
-  
+
   .hero {
     margin: 0px;
   }
@@ -136,5 +188,15 @@ footer {
   .gallery {
     flex-direction: column;
     align-items: center;
+  }
+
+  .services-section h2,
+  .why-us-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .services p,
+  .why-us li {
+    font-size: 1rem;
   }
 }

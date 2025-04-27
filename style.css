@@ -149,12 +149,6 @@ footer {
   line-height: 1.6;
 }
 
-.why-us li::before {
-  content: "✔";
-  color: #e50914;
-  margin-right: 10px;
-}
-
 /* Mobile styles */
 @media (max-width: 768px) {
   header {

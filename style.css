@@ -79,10 +79,6 @@ section {
   margin: auto;
 }
 
-video{
-  padding: 0 225px;
-}
-
 .what-we-doing{
   display: flex;
   justify-content: space-between;

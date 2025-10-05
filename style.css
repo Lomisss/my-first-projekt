@@ -251,12 +251,6 @@ footer {
   margin-left: 0;
   margin-right: 10px;
 }
-.burger.open span:nth-child(2) {
-  /* No opacity change */
-}
-.burger.open span:nth-child(3) {
-  /* No transform */
-}
 
 /* Show burger on mobile, hide nav by default */
 @media (max-width: 768px) {
@@ -280,7 +274,7 @@ footer {
     width: 100%;
     background: var(--color-bg-dark);
     position: absolute;
-    top: 70px;
+    top: 110px;
     right: 0;
     left: 0;
     z-index: 1000;

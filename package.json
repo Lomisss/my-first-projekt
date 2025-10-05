@@ -1,0 +1,24 @@
+{
+  "name": "my-first-projekt",
+  "version": "1.0.0",
+  "description": "this is my first projekt and i want to try do website for my friend who is tattooer and i want to help him with his tattoo studio!",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo \"No start script defined\"",
+    "dev": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lomisss/my-first-projekt.git"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lomisss/my-first-projekt/issues"
+  },
+  "homepage": "https://github.com/Lomisss/my-first-projekt#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

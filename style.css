@@ -30,7 +30,12 @@
 }
 
 body {
-  background-color: var(--color-bg);
+  /* ...existing code... */
+  background: linear-gradient(
+    150deg,
+    var(--color-bg-whyus) 22.5%,
+    var(--color-primary) 400%
+  );
   color: var(--color-text);
   font-family: var(--font-main);
   line-height: 1.6;
@@ -147,11 +152,6 @@ nav a:hover {
   background-color: var(--color-primary-hover);
 }
 
-@media (min-width: 1200px) {
-  .hero{
-    display: none;
-  }
-}
 /* =========================
    Main Sections
    ========================= */
@@ -386,13 +386,28 @@ footer {
   }
 }
 
+@media (min-width: 1200px) {
+  .hero {
+    display: none;
+  }
+
+  .container_top {
+    display: flex;
+    justify-content: space-between;
+    gap: 170px;
+  }
+}
 /* =========================
    Section Container
    ========================= */
 .container {
-  background: var(--color-bg-dark);
+  background: linear-gradient(
+  680deg,
+    var(--color-bg-whyus) 22.5%,
+    var(--color-white) 400%
+  );
   border-radius: 25px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   padding: 40px 24px;
   margin: 0 auto;
 }
@@ -400,7 +415,7 @@ footer {
 .container_botom {
   background: var(--color-white);
   border-radius: 25px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   padding: 40px 24px;
   margin: 0 auto;
   margin-bottom: 40px;
@@ -408,11 +423,13 @@ footer {
 }
 
 .container_top {
-  display: flex;
-  justify-content: space-between;
-  background: var(--color-bg-dark);
+  background: linear-gradient(
+    680deg,
+    var(--color-bg-whyus) 22.5%,
+    var(--color-primary) 400%
+  );
   border-radius: 25px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.12);
   padding: 40px 24px;
   margin: 0 auto;
   align-items: center;
